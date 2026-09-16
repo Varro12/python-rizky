@@ -1,6 +1,6 @@
 print("PROGRAM KASIR MINI")
 nama_barang = input("Masukkan Nama Barang: ")
-harga = int(input("Masukkan Harga Satuan (Rp): "))
+harga = int(input("Masukkan Harga Satuan Rp: "))
 jumlah = int(input("Masukkan Jumlah Beli: "))
 
 total_asli = harga * jumlah
