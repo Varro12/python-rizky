@@ -6,7 +6,7 @@ jumlah = int(input("Masukkan Jumlah Beli: "))
 total_asli = harga * jumlah
 
 if total_asli >= 100000:
-    diskon = total_asli * 0.1
+    diskon = total_asli * 0.12
     total_bayar = total_asli - diskon
     print("\nSelamat kamu mendapatkan diskon 10%")
 else:
